@@ -49,7 +49,7 @@ def run():
    while True:       
         print("")
         print("")
-        letra_escrita=input("Ingresa una letra: ")
+        letra_escrita=input("Ingresa una letra: ").lower()
         
         try:
             assert len(letra_escrita)>0,"** No se permiten vacíos"
